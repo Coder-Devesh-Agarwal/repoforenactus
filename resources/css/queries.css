@@ -1,0 +1,21 @@
+/*maximum width of big(1023px) to 1200px width devices*/
+@media only screen and (max-width:1200px) {
+    .super-text-box {
+        padding: 0 2%;
+        width: 100%;
+        /*
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    }
+}
+
+/*maximum width of 768px to 1023px width devices*/
+@media only screen and (max-width:1023px) {}
+
+/*maximum width of 481px to 767px width devices*/
+@media only screen and (max-width:767px) {}
+
+/*maximum width of 0 to 480px width devices*/
+@media only screen and (max-width:480px) {}
